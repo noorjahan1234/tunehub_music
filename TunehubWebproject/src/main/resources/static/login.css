@@ -1,0 +1,29 @@
+/* welcome.css */
+body {
+    background-color: rgb(128, 0, 64); /* Dark grey background */
+    color: #ffcd31; /* Golden text color for contrast */
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(192, 192, 192); /* Slightly lighter grey for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);/*box property is used to apply one or more shadows to an element*/
+    color: #ff7e26; /* Orange text color */
+}
+
+a:hover, input[type=submit]:hover {
+    background-color: #ff7e26; /* Orange background on hover */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+}

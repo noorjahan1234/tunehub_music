@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link th:href="@{/addsong.css}" rel="stylesheet">
+</head>
+<body>
+<center>
+<div class="color">
+	<form action="/addsongs" method="post">
+	<label>Song Name: </label>
+	<input type="text" name="name"/>
+	<br/><br/>
+	<label>Song Artist: </label>
+	<input type="text" name="artist"/>
+	<br/><br/>
+	<label>Song Genre: </label>
+	<input type="text" name="genre"/>
+	<br/><br/>
+	<label>Song Link: </label>
+	<input type="text" name="link"/>
+	<br/><br/>
+	<input type="submit" value="ADD SONGS"/>
+	</form>
+	</div>
+	</center>
+</body>
+</html>

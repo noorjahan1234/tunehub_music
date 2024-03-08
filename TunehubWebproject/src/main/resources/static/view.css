@@ -1,0 +1,8 @@
+body {
+    background-color: rgb(128, 64, 64); /* Greenish background for buttons and links */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}

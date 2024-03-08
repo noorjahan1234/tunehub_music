@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+	background-color:rgb(120, 120, 120);
+}
+a, input[type=buy] {
+    background-color: rgba(255, 99, 71, 0.6); /* Greenish background for buttons and links */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}

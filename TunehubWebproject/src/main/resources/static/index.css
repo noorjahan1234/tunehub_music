@@ -1,0 +1,50 @@
+/* welcome.css */
+body {
+    /*background-color: #f18973; /* Dark grey background */
+    background-image: url("pexels-annam-w-1047442.jpg");
+     width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center; /* Golden text color for contrast */
+    
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	}
+
+nav{
+    width: 100%;
+    height: 80px;
+    line-height: 75px;
+    padding: 0px 20px;
+    position: fixed;
+    background-image: linear-gradient(#033747, #012733);
+}
+nav .logo p{
+    font-size: 25px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+   display: inline-block;
+    list-style: none;
+    cursor: pointer;
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    text-transform: uppercase;
+    padding:0px 30px;
+    color: white;
+    text-decoration: none;
+}
+nav li a:hover{
+    color: #ff8c69;
+    transition: all 0.4s ease os;
+}

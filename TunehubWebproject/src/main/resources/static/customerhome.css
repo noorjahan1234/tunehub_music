@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body{
+	background-color: rgba(255, 99, 71, 0.5);
+}
+a, input[type=submit] {
+    background-color: #62856d; /* Greenish background for buttons and links */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,36 @@
+/* welcome.css */
+body {
+    background-color: rgba(255, 99, 71, 0.8); /* Dark grey background */
+    color: #ffcd31; /* Golden text color for contrast */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+	text-align: center;
+    max-width: 700px;
+    margin: auto;
+    background-color: rgb(192, 192, 192); /* Slightly lighter grey for the container */
+    color: #ff7e26; /* Orange text color */
+}
+
+a, input[type=submit] {
+    background-color: rgb(0, 64, 0); /* Greenish background for buttons and links */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+a:hover, input[type=submit]:hover {
+    background-color: #ff7e26; /* Orange background on hover */
+}
+label {
+    margin-top: 10px;
+}
+input[type=email], input[type=password], input[type=user], input[type=text], textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #62856d; /* Greenish border */
+}
