@@ -1,8 +1,11 @@
 /* admin.css */
 body {
    background-image: url("music.logo.jpg");
-    color: #ffcd31; /* Golden text color for contrast */
+    color: rgb(128, 0, 0); /* Golden text color for contrast */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    background-position: center;
     text-align: center;
 }
 

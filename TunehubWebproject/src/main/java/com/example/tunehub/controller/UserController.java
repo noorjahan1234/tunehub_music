@@ -21,7 +21,6 @@ import com.example.tunehub.services.UserService;
 
 import jakarta.servlet.http.HttpSession;
 
-
 @Controller
 public class UserController 
 {
@@ -36,7 +35,7 @@ public class UserController
 	{
 		//check email persent or not
 		boolean userstaus=userv.emailExists(user.getEmail());
-		if(userstaus==true)
+		if(userstaus==false)
 		{
 		userv.addUser(user);
 		//System.out.println("user is exist");

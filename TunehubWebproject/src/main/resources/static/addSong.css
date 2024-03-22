@@ -4,4 +4,13 @@ body{
 }
 .color{
 	color: "tomato";
+	height:300px;
+    width:240px;
+	border-color:green;
+    border-style:ridge;
+    padding:50px;
+    margin:100px;
+}
+.color :focus{
+	background-color:LightSteelBlue;
 }
